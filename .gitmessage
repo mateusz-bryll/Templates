@@ -1,0 +1,45 @@
+# <type>(<scope>?): <subject>
+# |<----  Using a Maximum Of 50 Characters  ---->|
+
+# Remember blank line between title and body.
+
+# Body: Explain WHAT and WHY (not how).
+# Can use multiple lines with "-" for bullet points in body
+# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+# Problem description:
+Context of this change:
+- 
+# Remember blank line between problem and solution descriptions.
+
+# Solution description
+Solution:
+- 
+# At the end: Include Co-authored-by for all contributors. 
+# Provide links or keys to any relevant tickets, articles or other resources
+# Example: Github issue #23
+# Example: Add template with command: 'git config --global commit.template ~/.gitmessage'
+#
+# At the end: Include Co-authored-by for all contributors. 
+# Include at least one empty line before it. Format: 
+# Co-authored-by: name <name@example.com>
+# --- COMMIT END ---
+#
+# <type> describes the kind of change that this commit is providing. Allowed types are:
+#    FEATURE     (new feature)
+#    BUGFIX      (bug fix)
+#    REFACTOR    (refactoring production code)
+#    FORMAT      (formatting, typos, etc; no code change)
+#    DOCS        (changes to documentation)
+#    TESTS       (adding or refactoring tests; no production code change)
+#    CHORE       (updating deployment, build scripts, etc; no production code change)
+# <scope>? (optional) can be anything specifying the place of the commit change
+# <subject> is a very short description of the change, in the following format:
+#    - imperative, present tense: "change" not "changed"/"changes"
+#    - capitalized first letter
+#    - no dot (.) at the end
+#    - example: FEATURE(Something): Add new strategy for something
+# --------------------
+# Remember to
+#   - Separate subject from body with a blank line
+#   - Use the body to explain what and why vs. how
+#   - Can use multiple lines with "-" for bullet points in body
